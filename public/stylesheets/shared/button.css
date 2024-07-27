@@ -1,0 +1,19 @@
+:root {
+  --color-background-dark: hsl(187, 24%, 22%);
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  border-radius: 0.25rem;
+  height: 5vh;
+  color: var(--color-white);
+  background-color: var(--color-hue-primary-dark);
+  font-size: 16px;
+  font-family: 'Karla';
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--color-background-dark);
+}

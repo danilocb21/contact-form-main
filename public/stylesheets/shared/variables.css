@@ -1,0 +1,8 @@
+:root {
+  --color-hue-primary: hsl(148, 38%, 91%);
+  --color-hue-primary-dark: hsl(169, 82%, 27%);
+  --color-danger: hsl(0, 66%, 54%);
+  --color-text-light: hsl(186, 15%, 59%);
+  --color-text-dark: hsl(187, 24%, 22%);
+  --color-white: hsl(0, 0%, 100%);
+}

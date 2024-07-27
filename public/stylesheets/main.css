@@ -1,0 +1,109 @@
+@import 'shared/fonts.css';
+@import 'shared/variables.css';
+@import 'shared/form.css';
+@import 'shared/button.css';
+
+:root {
+  font-family: 'Karla';
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--color-text-dark);
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-hue-primary);
+  height: 100%;
+}
+
+.outer-container {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.mid-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.container {
+  background-color: var(--color-white);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.container h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.success {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  background-color: var(--color-background-dark);
+  color: var(--color-white);
+  padding: 1.2rem;
+  border-radius: 15px;
+  font-size: 16px;
+  display: none;
+}
+
+.success-top {
+  display: flex;
+  margin-bottom: .5rem;
+  font-weight: bold;
+}
+
+svg {
+  height: 16px;
+  margin-right: .4rem;
+}
+
+p {
+  font-size: 14px;
+}
+
+.display-success {
+  display: block;
+}
+
+@media only screen and (max-width: 420px) {
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container {
+    max-width: 320px;
+  }
+
+  .success {
+    max-width: 230px;
+  }
+
+  .form-row {
+    flex-wrap: wrap;
+  }
+
+  .form-item {
+    margin-left: 0;
+  }
+
+  .form-item textarea {
+    height: 15vh;
+  }
+}
