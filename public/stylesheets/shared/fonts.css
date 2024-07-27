@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Karla';
-  src: url('/public/fonts/Karla-Italic.woff2') format('woff2'),
-    url('/public/fonts/Karla-Italic.woff') format('woff');
+  src: url('../../fonts/Karla-Italic.woff2') format('woff2'),
+    url('../../fonts/Karla-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Karla';
-  src: url('/public/fonts/Karla-Regular.woff2') format('woff2'),
-    url('/public/fonts/Karla-Regular.woff') format('woff');
+  src: url('../../fonts/Karla-Regular.woff2') format('woff2'),
+    url('../../fonts/Karla-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'Karla';
-  src: url('/public/fonts/Karla-Bold.woff2') format('woff2'),
-    url('/public/fonts/Karla-Bold.woff') format('woff');
+  src: url('../../fonts/Karla-Bold.woff2') format('woff2'),
+    url('../../fonts/Karla-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
   font-family: 'Karla';
-  src: url('/public/fonts/Karla-Regular.woff2') format('woff2'),
-    url('/public/fonts/Karla-Regular.woff') format('woff');
+  src: url('../../fonts/Karla-Regular.woff2') format('woff2'),
+    url('../../fonts/Karla-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
